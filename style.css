@@ -47,7 +47,7 @@ img{
 }
 
 main{
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
 }
 /*modal*/
@@ -62,7 +62,7 @@ main{
     bottom: 0;
     margin: auto;
     height: 420px;
-    width: 350px;
+    width: 450px;
     border-radius: 5px;
     color: whitesmoke;
     background-color: #212529;
@@ -115,7 +115,7 @@ modal-choice-btns{
 
 /* modal input */
 
-input{
+input, .submitBtn{
     margin-top: 10px; 
     border: 1px solid #212529;
     padding: 10px;
@@ -138,4 +138,13 @@ input{
     height: 140px;
     line-height: 23px;
     margin-bottom: 0;
+}
+.form{
+    margin-top: 20px;
+}
+.submitBtn{
+    background-color: red;
+    font-weight: 900;
+    color: #E5F9FE;
+    
 }
